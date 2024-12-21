@@ -1,0 +1,135 @@
+@font-face {
+    font-family: meow;
+    src: url(./3856NeueMachina.woff2);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: meow;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: beige; */
+}
+
+header{
+    border-bottom: 1px solid black;
+    /* background-color: rgb(230, 230, 50); */
+    width: 100%;
+    min-height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 00px;
+}
+.firstname {
+    opacity: .5
+}
+header h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.subhead{
+    /* background-color: #fff; */
+    text-decoration: none;
+    display: flex;
+
+}
+.subhead a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 10px 10px;
+}
+.portfolio{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.contentpage{
+    margin: 30px ;
+    display: flex;
+
+
+}
+.leftpart{
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 35%;
+    border-right: 1px solid black;
+}
+.contentheadings{
+    opacity: .5;
+    font-size: 27px;
+}
+
+.contentsubheadings{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.contentmain{
+    font-weight: 600;
+}
+
+.leftpart-content-gapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+ .links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-right: 10px;
+
+    border-right: 1px solid black ;
+ }
+
+ .links a:nth-child(5){
+    border-right: none ;
+ }
+
+ .rightpart{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+    width: 100%;
+    /* background-color: #d52424; */
+ }
+ .prjtypes{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+ .H4-indent{
+    text-indent: 20px;
+ }
+ .P-indent{
+    margin-left: 40px;
+ }
+
+ .frontendworks{
+    text-indent: 20px;
+ }
+ .about{
+    display: flex;
+ }
+ .brief{
+    
+    width: 100%;
+ }
+ 
